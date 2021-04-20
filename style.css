@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-family: fantasy;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.fas,
+.fab {
+    padding: 5px 10px 5px 10px;
+    margin: 5px 0 5px 0;
+}
+
+
+/* header ended */
+
+
+/* navbar starts */
+
+li:hover {
+    background-color: #1ed424;
+    color: white !important;
+}
+
+#nav-bar {
+    position: sticky;
+}
+
+
+/* navbar ended */
+
+
+/* about section starts */
+
+.about {
+    display: flex;
+    margin: 50px 35px 20px 35px;
+}
+
+.intro {
+    margin-top: 80px;
+    font-size: medium;
+}
+
+.right img {
+    border-radius: 200px 80px 80px 80px;
+}
+
+
+/* media query */
+
+
+/* @media only screen and (max-width:600px) {
+    body {
+        background-color: red;
+        ;
+    }
+} */
